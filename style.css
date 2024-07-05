@@ -1,0 +1,108 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    opacity: 0.9;
+    background-color: #DBC07B;
+    background-image:  repeating-linear-gradient(to bottom right,#DBC07B,#76D1DB)
+    }
+h1    {
+    font-family: "Roboto", sans-serif; 
+    color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#3B486D;
+    
+      /* check later to see if need or if whole of body font is okay */
+    }
+h2  {
+    color: aliceblue;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#3B486D;
+    }
+h3  {
+    color: aliceblue;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#3B486D;
+}
+
+h4  {
+    color:aliceblue;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#3B486D;
+}
+h5 {
+    color: #4B664E;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#3B486D;
+    }
+
+p   {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+#hero-portrait{
+    border-radius: 50px;
+}
+#cv-picture{
+    height: 200px;
+ }
+@media only screen and (max-width: 500px) 
+{
+ #hero-portrait {
+    height: 20vh;
+ }
+    #cv-picture{
+    height: 10vh;
+ }
+
+}
+.options {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  repeating-linear-gradient(to bottom right,#76D1DB,#7691DC);
+}
+.footer{
+    background-color: #4B664E;
+    color:aliceblue;
+}
+
+.btn-custom{
+    background-color:#DBC07B ; 
+    font-weight: 600;
+    border-color: black;
+    
+}
+.btn-custom:hover {
+    background-color: #DBC07B;
+    color: white;
+    font-weight: 600;
+}
+.coming-soon{
+    color:grey;
+    font-style: italic;
+}
+ul{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+#professional-summary{
+    color:aliceblue
+}
+.cv-header{
+    color:aliceblue;
+    background-color: #3B486D;
+}
+
+.hobbies-main{
+    background-color: #DBC07B;
+    background-image:  repeating-linear-gradient(to bottom right,#DBC07B,#76D1DB);
+    color:aliceblue;
+}
+.hobbies-card{
+    background-color: #DBC07B;
+    background-image:  repeating-linear-gradient(to bottom right,#DBC07B,aliceblue)
+}
+
+
